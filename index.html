@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mateus Duarte | DevOps Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">Mateus <span>Duarte</span></div>
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contatos</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="terminal-icon">></div>
+  <h1>Mateus Duarte</h1>
+  <h2>DevOps Engineer</h2>
+  <p>Especialista em Automação, Cloud, CI/CD e Infraestrutura como Código.</p>
+
+  <div class="buttons">
+    <a href="#projetos" class="btn-primary">Ver Projetos</a>
+    <a href="#contato" class="btn-secondary">Entre em Contato</a>
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos" class="section">
+  <h2 class="section-title">Projetos</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h3>Projeto DevOps 1</h3>
+      <p>Pipeline CI/CD automatizado com Docker e GitHub Actions.</p>
+      <div class="tags">
+        <span>Docker</span>
+        <span>CI/CD</span>
+        <span>GitHub</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Infraestrutura Cloud</h3>
+      <p>Provisionamento AWS com Terraform e monitoramento.</p>
+      <div class="tags">
+        <span>AWS</span>
+        <span>Terraform</span>
+        <span>Cloud</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Kubernetes Cluster</h3>
+      <p>Orquestração e deploy de microsserviços.</p>
+      <div class="tags">
+        <span>K8s</span>
+        <span>Helm</span>
+        <span>Linux</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <h2 class="section-title">Sobre Mim</h2>
+
+  <div class="sobre-container">
+    <div class="sobre-texto">
+      <h3>Minha trajetória</h3>
+      <p>
+        Profissional focado em DevOps, apaixonado por automação,
+        infraestrutura escalável e melhoria contínua.
+      </p>
+
+      <div class="stats">
+        <div><h4>3+</h4><p>Anos de Experiência</p></div>
+        <div><h4>15+</h4><p>Projetos Concluídos</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <h2 class="section-title">Entre em Contato</h2>
+
+  <div class="contato-container">
+    <div class="info">
+      <p><strong>Email:</strong> seuemail@email.com</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/seu-perfil</p>
+      <p><strong>GitHub:</strong> github.com/seuusuario</p>
+    </div>
+
+    <form class="form-contato" method="POST" action="/enviar">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="mensagem" placeholder="Digite sua mensagem..." required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
